@@ -61,3 +61,6 @@ print(student1)
 print(student1.get_highest())
 
 print("Ali kooniye")
+print("erfan kooniye")
+print("meti kooniye")
+print("Kia khodaye man ast")
