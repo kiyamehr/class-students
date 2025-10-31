@@ -21,7 +21,6 @@ class Students:
             raise f"{exc}"
         except Exception as exc:
             raise f"Error! Your Error was: {exc}"
-
         else:
             return f"The Average Score is '{self.avg}'"
 
@@ -60,3 +59,5 @@ student1.add_score(14)
 print(student1.average())
 print(student1)
 print(student1.get_highest())
+
+print("Ali kooniye")
