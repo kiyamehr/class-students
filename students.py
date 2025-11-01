@@ -40,6 +40,9 @@ class Students:
         else:
             return get
 
+    def remove_score(self, score):
+        self.score.remove(score)
+
     def __str__(self):
         try:
             pr = f"Name: {self.name}, Avg: '{self.avg}'"
@@ -59,4 +62,5 @@ student1.add_score(14)
 print(student1.average())
 print(student1)
 print(student1.get_highest())
-
+print(student1.remove_score(14))
+print(student1.score)

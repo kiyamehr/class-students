@@ -1,6 +1,6 @@
-# import unittest
-# from students import Students
+import unittest
+from students import Students
 
-# class TestStudent(unittest.TestCase):
-#     def test_add_score(self):
-#         self.assert
+class TestStudent(unittest.TestCase):
+    def test_add_score(self):
+        self.assert
